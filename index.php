@@ -109,7 +109,7 @@ if (isset($_GET['ocultarNoticias'])) {
             //En el caso de querer borrar un fichero
             if ($accion === 'borrar') {
 
-                //Llamamos a borrarFichero, pasando la ruta del fichero que queremos borrar
+                //Llamamos a borrarFichero, pasando la ruta del fichero que queremos borrar.
                 if ($tipo === 'xml') {
                     borrarFichero("xml/usuarios.xml");
                 } else {
